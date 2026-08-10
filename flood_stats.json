@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-08-10T22:43:30.872Z",
+  "generatedAt": "2026-08-10T22:53:36.836Z",
   "gaugeName": "Inside Thorofare at Atlantic City",
   "station": {
     "usgsGaugeId": "01410560",
