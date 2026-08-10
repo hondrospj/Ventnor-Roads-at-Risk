@@ -1,38 +1,40 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-08-06T23:00:32.825Z",
+  "generatedAt": "2026-08-10T20:29:00.001Z",
   "gaugeName": "Inside Thorofare at Atlantic City",
   "station": {
     "usgsGaugeId": "01410560",
     "usgsParameterCode": "72279",
     "noaaGaugeId": "8534720",
-    "petssGaugeId": "est4836",
+    "petssGaugeId": "8534836",
     "datum": "NAVD88"
   },
   "archive": {
     "startDate": "2007-10-01",
-    "endDate": "2026-08-06",
-    "days": 6785,
+    "endDate": "2026-08-09",
+    "days": 6788,
     "years": 18.58,
     "classificationCounts": {
-      "none": 5858,
+      "none": 5861,
       "minor": 859,
       "moderate": 64,
       "major": 4
     }
   },
   "tideModel": {
-    "highTideCount": 13115,
+    "highTideCount": 13117,
     "drawsPerYear": 706,
     "predictionRows": 300,
-    "trendFtPerYear": 0.02206112,
+    "trendFtPerYear": 0.02087936,
     "trendSource": {
-      "station": "8534720",
-      "source": "NOAA monthly_mean MSL fallback",
-      "datum": "MSL",
-      "trendMethod": "deseasonalized_monthly_mean_linear_regression",
-      "monthlyPoints": 311,
-      "rawSlopeFtPerYear": 0.02147246
+      "station": "01410560",
+      "source": "Inside Thorofare at Atlantic City observed hourly monthly means",
+      "datum": "NAVD88",
+      "trendMethod": "monthly_mean_linear_regression",
+      "monthlyPoints": 227,
+      "firstMonth": "2007-10",
+      "lastMonth": "2026-08",
+      "rawSlopeFtPerYear": 0.02087936
     }
   },
   "datum": {
@@ -3440,6 +3442,7 @@
     2.49,
     2.49,
     2.49,
+    2.49,
     2.5,
     2.5,
     2.5,
@@ -3866,6 +3869,7 @@
     2.58,
     2.58,
     2.58,
+    2.59,
     2.59,
     2.59,
     2.59,
@@ -5524,6 +5528,7 @@
     3.01,
     3.01,
     3.01,
+    3.02,
     3.02,
     3.02,
     3.02,
@@ -47630,6 +47635,24 @@
       "date": "2026-08-06",
       "peakNavd88Ft": 2.3,
       "peakMllwFt": 4.69,
+      "classification": "none"
+    },
+    {
+      "date": "2026-08-07",
+      "peakNavd88Ft": 2.49,
+      "peakMllwFt": 4.88,
+      "classification": "none"
+    },
+    {
+      "date": "2026-08-08",
+      "peakNavd88Ft": 2.59,
+      "peakMllwFt": 4.98,
+      "classification": "none"
+    },
+    {
+      "date": "2026-08-09",
+      "peakNavd88Ft": 3.02,
+      "peakMllwFt": 5.41,
       "classification": "none"
     }
   ]
